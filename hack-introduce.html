@@ -1,0 +1,29 @@
+<head>
+        <script src="../jquery-3.6.0.min.js"></script>
+        <script src="hack-query.js"></script>
+        <link rel="stylesheet" href="hack.css">
+</head>
+
+<div class="download">
+    <progress id="p1" min="0" max="100" value="0" class="pro"></progress>
+    <button onclick="proc1();" id="button">ダウンロード開始</button>
+    <script>
+    function proc1()
+    {
+        if (document.getElementById('p1').value < 100 ) {
+            document.getElementById('p1').value++;
+            setTimeout(proc1, 100);
+        }
+        else{
+            $(".removed").removeClass("removed");
+        }
+    }
+    </script>
+</div>
+
+<div  class="removed">
+    <h1>下のボタンを押してください</h1>
+    <button type="button" class="button">承認</button>
+
+    <a href="C:\Users\user22\Desktop\html_lesson\hack\hack.html" class="hide">こちらをクリック
+</div>

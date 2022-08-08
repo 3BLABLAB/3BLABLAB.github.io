@@ -1,0 +1,57 @@
+.pro{
+    display:none;
+}
+.removed,.hide{
+    display:none;
+}
+.button{
+    margin: center;
+}
+a{
+    font-size: 45px;;
+}
+.download{
+    text-align: center;
+    margin: 100px auto;
+}
+.explain{
+    background: rgb(240, 230, 91);
+    background-color: black;
+    height:650px;
+    font-family: serif;
+    font-size: 20px;
+}
+h1{
+    color:red;
+    font-size: 50px;
+    text-align: center;
+}
+p{
+    color:black;
+    color:white;
+}   
+.price{
+    font-size: 30px;
+    color:red;
+}
+.even{
+    background:#F2F2F2;
+}
+.odosi{
+    color:red
+}
+.alart{
+    font-size: 30px;
+}
+.count{
+    font-size: 30px;
+}
+.notification{
+    margin: 30px auto;
+    text-align:center;
+    color:white;
+    background-color: rgb(230, 82, 127);
+}
+.progress{
+    height:20px;
+}
